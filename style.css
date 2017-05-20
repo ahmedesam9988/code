@@ -1,0 +1,60 @@
+/*Start Our Services*/
+
+.our-services {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.our-services .services-one {
+    position: relative
+}
+
+.our-services .services-one:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 40px;
+    border-bottom: 2px solid #333;
+}
+
+.our-services .services-one h1 {
+    padding-bottom: 20px
+}
+
+.our-services .services-one p {
+    width: 60%;
+    line-height: 1.7;
+    padding-top: 45px;
+    padding-bottom: 45px
+}
+
+.our-services .services-one .btn {
+    background-color: #000;
+    color: #FFF;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.our-services .services-two img {
+    width: 85%;
+}
+
+.our-services .services-two .list li:nth-child(2) {
+    background-color: #777;
+}
+
+.our-services .services-two .list li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #444;
+    margin-top: 30px;
+    margin-right: 10px
+}
+
+
+/*End Our Services*/
